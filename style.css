@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4f4;
+  flex-direction: column;
+  height: 60vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  justify-content: space-between;
+  padding: 0.2rem 1rem;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3rem;
+  border-right: 3px solid black;
+}
+
+button {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+  display: block;
+  cursor: pointer;
+  border: solid 2px #111;
+  background: #fff;
+  border-radius: 8px;
+}
+
+main {
+  width: 100%;
+  padding: 1rem 2rem;
+  flex: 1;
+}
+
+main h2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  border-bottom: black 1px solid;
+  padding-bottom: 1rem;
+}
+
+main h2:not(strong) {
+  margin-left: 1rem;
+  font-weight: 200;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin: 0.8rem;
+}
+
+.person strong {
+  margin-right: 0.4rem;
+}
+
+.total {
+  width: 100%;
+  font-size: 0.8rem;
+  background-color: white;
+  border-top: 1px solid black;
+
+  padding: 0.6rem 0.8rem;
+  margin-top: 2rem;
+}
+
+.total h3 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2px;
+}
